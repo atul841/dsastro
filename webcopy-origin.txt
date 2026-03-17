@@ -1,0 +1,744 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\jquery-ui.min.js
+Content Type: text/javascript
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-bg_flat_75_ffffff_40x100.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-bg_glass_65_ffffff_1x400.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-bg_glass_75_dadada_1x400.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-icons_222222_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-icons_222222_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-icons_2e83ff_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-icons_2e83ff_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-icons_454545_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-icons_454545_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-icons_888888_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-icons_888888_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/images/ui-icons_cd0a0a_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\images\ui-icons_cd0a0a_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ajax\libs\jqueryui\1.11.2\themes\smoothness\jquery-ui-1.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/fullcalendar@5.6.0/main.min.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\npm\fullcalendar@5.6.0\main.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/fullcalendar@5.6.0/main.min.js
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\npm\fullcalendar@5.6.0\main.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/animated-overlay.gif
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\animated-overlay.gif
+Content Type: image/gif
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-bg_flat_75_ffffff_40x100.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-bg_glass_65_ffffff_1x400.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-bg_glass_75_dadada_1x400.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-icons_222222_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-icons_222222_256x240.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-icons_2e83ff_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-icons_2e83ff_256x240.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-icons_454545_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-icons_454545_256x240.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-icons_888888_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-icons_888888_256x240.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/images/ui-icons_cd0a0a_256x240.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\images\ui-icons_cd0a0a_256x240.png
+Content Type: image/png
+
+Uri: https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\ui\1.10.2\themes\smoothness\jquery-ui-1.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;600;700&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@100&display=swap
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\css2-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXME.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\josefinsans\v34\Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXME.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQXME.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\josefinsans\v34\Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQXME.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQXME.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\josefinsans\v34\Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQXME.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XXME.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\josefinsans\v34\Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XXME.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ObXXME.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\josefinsans\v34\Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ObXXME.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/merriweathersans/v28/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZfOkljg.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\merriweathersans\v28\2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZfOkljg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/merriweathersans/v28/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZIukljg.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\merriweathersans\v28\2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZIukljg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/merriweathersans/v28/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZkO4ljg.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\merriweathersans\v28\2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZkO4ljg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/merriweathersans/v28/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4ljg.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\merriweathersans\v28\2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4ljg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/merriweathersans/v28/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZRekljg.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\merriweathersans\v28\2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZRekljg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/merriweathersans/v28/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZ_O4ljg.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\merriweathersans\v28\2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZ_O4ljg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWNig.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\s\worksans\v24\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWNig.ttf
+Content Type: font/ttf
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/about.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\about-1.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/astrologer-details.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\astrologer-details.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/astrologer.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\astrologer-1.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/blog-details.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\blog-details.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/blog.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\blog-1.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/contact-us.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\contact-us-1.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/css/all.min.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\css\all.min-1.css
+Content Type: text/css
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\css\bootstrap.min-1.css
+Content Type: text/css
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/css/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\css\owl.carousel.min-1.css
+Content Type: text/css
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/css/owl.theme.default.min.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\css\owl.theme.default.min-1.css
+Content Type: text/css
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/css/style.min.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\css\style.min-1.css
+Content Type: text/css
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/favicon.ico
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\favicon-1.ico
+Content Type: image/x-icon
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/10350949.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\10350949-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/10350961.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\10350961-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/10350969.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\10350969-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/1408347.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\1408347-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/3013143.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\3013143-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/3201854.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\3201854-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/3776970.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\3776970-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/47148.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\47148-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/47246.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\47246-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/47271.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\47271-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005785.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005785.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005796.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005796.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005801.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005801.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005806.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005806-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005810.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005810-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005814.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005814-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005816.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005816.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005820.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005820.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005825.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005825.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005830.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005830.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005834.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005834.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/5005845.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\5005845.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/6767016.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\6767016-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/7125116.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\7125116-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/75522.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\75522-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/8062843.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\8062843-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/815838.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\815838-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/8381914.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\8381914-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/8596897.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\8596897-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/867780.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\867780-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/9009939.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\9009939-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/9009955.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\9009955-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/9289285.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\9289285-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/aggju.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\aggju-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as1.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as1-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as10.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as10-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as11.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as11-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as2.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as2-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as3.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as3-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as4.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as4-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as6.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as6-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as7.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as7-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as8.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as8-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/as9.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\as9-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/author-bg.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\author-bg-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/b25b0862914e3a91284933a7af276075.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\b25b0862914e3a91284933a7af276075-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/bg-bannerpic.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\bg-bannerpic-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/bhok.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\bhok-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/cat-crawford-b1AsZn2C-lo-unsplash.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\cat-crawford-b1AsZn2C-lo-unsplash.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/close-up-portrait-young-indian-man-white-shirt-posing-standing-smiling-looks-calm.webp
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\close-up-portrait-young-indian-man-white-shirt-posing-standing-smiling-looks-calm-1.webp
+Content Type: image/webp
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/depositphotos_81108858-stock-photo-casual-business-indian-boy-portrait.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\depositphotos_81108858-stock-photo-casual-business-indian-boy-portrait-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/home-partners012.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\home-partners012.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/home-team.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\home-team.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/homu.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\homu.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/horocurty.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\horocurty.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/horocurty03.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\horocurty03.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_angel.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_angel.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_breakup.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_breakup.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_daily-career.webp
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_daily-career.webp
+Content Type: image/webp
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_daily-love.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_daily-love.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_dream.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_dream.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_egyptian.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_egyptian.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_erotic.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_erotic.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_inner-animal.webp
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_inner-animal.webp
+Content Type: image/webp
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_love-potential.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_love-potential.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_make-a-wish.webp
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_make-a-wish.webp
+Content Type: image/webp
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_money-oracle.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_money-oracle.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_monthly.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_monthly.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imag-tarot_zen.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imag-tarot_zen.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/image-13-1561127528.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\image-13-1561127528-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/imok.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\imok-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/istockphoto-1200677760-612x612.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\istockphoto-1200677760-612x612-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/istockphoto-1277971635-612x612.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\istockphoto-1277971635-612x612-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/istockphoto-1277996375-612x612.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\istockphoto-1277996375-612x612-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/istockphoto-963801050-612x612.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\istockphoto-963801050-612x612-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/logo-drk.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\logo-drk.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/logo.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\logo-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/middle-img.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\middle-img-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/moon-phasing1.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\moon-phasing1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/moon.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\moon-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/numerology-concept-still-life.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\numerology-concept-still-life.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/roadmap_bg2.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\roadmap_bg2.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/round.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\round-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/ruiy-img01.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\ruiy-img01.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/service_img2.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\service_img2-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/sop.png
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\sop-1.png
+Content Type: image/png
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/spiritual-man-india-traditional-clothing-39495501.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\spiritual-man-india-traditional-clothing-39495501-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/tania-medina-zwsL1bj_yKA-unsplash.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\tania-medina-zwsL1bj_yKA-unsplash.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/tarot-card.webp
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\tarot-card.webp
+Content Type: image/webp
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/tengyart-VgijAV-e97Y-unsplash.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\tengyart-VgijAV-e97Y-unsplash.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/images/testimonials-1-1.jpg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\images\testimonials-1-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/index.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\index-1.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\js\bootstrap.bundle.min.js
+Content Type: text/javascript
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/js/calnder.js
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\js\calnder.js
+Content Type: text/javascript
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/js/custom.js
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\js\custom.js
+Content Type: text/javascript
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\js\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/js/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\js\owl.carousel.min.js
+Content Type: text/javascript
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/love.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\love-1.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/number-details.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\number-details.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/numerology.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\numerology-1.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/tarot-details.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\tarot-details.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/tarot.html
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\tarot-1.html
+Content Type: text/html
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://oxentictemplates.in/templatemonster/astrology/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\templatemonster\astrology\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\font-awesome\4.7.0\css\font-awesome.min-1.css
+Content Type: text/css
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\font-awesome\4.7.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\font-awesome\4.7.0\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\font-awesome\4.7.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\font-awesome\4.7.0\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\font-awesome\4.7.0\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: https://unpkg.com/aos@2.3.0/dist/aos.js
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\aos@2.3.0\dist\aos.js
+Content Type: text/javascript
+
+Uri: https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css
+File Name: C:\Downloaded Web Sites\oxentictemplates.in\aos@3.0.0-beta.6\dist\aos-1.css
+Content Type: text/css
+
