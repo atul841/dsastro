@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
     
-  </head>
+  </head> 
 
 <body>
  
@@ -107,12 +107,12 @@
               <a class="nav-link" href="astrologer.html">HOME</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <a class="nav-link dropdown-toggle" href="consultations.html" role="button" data-bs-toggle="dropdown">
                 CONSULTATIONS
               </a>
-              <ul class="dropdown-menu dropdown-menu1">
-                <li><a class="dropdown-item" href="#">Personal Horoscope</a></li>
-                <li><a class="dropdown-item" href="#">Marriage/Relationship</a></li>
+              <ul class="dropdown-menu dropdown-menu1"> 
+                <li><a class="dropdown-item" href="consultations.html">Personal Horoscope</a></li>
+                <li><a class="dropdown-item" href="consultations.html">Marriage/Relationship</a></li>
                 <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
                 <li><a class="dropdown-item" href="#">Muhurat</a></li>
                 <li><a class="dropdown-item" href="#">Health Astrology</a></li>
@@ -796,14 +796,14 @@
        
 
          <!-- SECTION -->
-<section class="reports-section">
+<section class="reports-section" >
   <h2 class="title">Most Popular Reports</h2>
   <p class="subtitle">Trusted by 50,000+ seekers worldwide for clarity and life guidance.</p>
 
   <div class="report-container">
 
     <!-- Card 1 -->
-    <div class="report-card green">
+    <div class="report-card green" id="course1">
       <div class="card-banner">
         <span class="discount">Mega DISCOUNT</span>
         <h3>Beginner Astrology </span></h3>
@@ -820,7 +820,7 @@
     </div>
 
     <!-- Card 2 -->
-    <div class="report-card purple">
+    <div class="report-card purple" id="course2">
       <div class="card-banner">
         <span class="discount">Mega DISCOUNT</span>
         <h3>Advanced Astrology</h3>
@@ -837,7 +837,7 @@
     </div>
 
     <!-- Card 3 -->
-    <div class="report-card red">
+    <div class="report-card red" id="course3">
       <div class="card-banner">
         <span class="discount">Mega DISCOUNT</span>
         <h3>Predictive Astrology</span></h3>
@@ -854,7 +854,7 @@
     </div>
 
     <!-- Hidden Card 4 -->
-    <div class="report-card green extra-card">
+    <div class="report-card green extra-card" id="course4">
       <div class="card-banner">
         <span class="discount">Mega DISCOUNT</span>
         <h3>Certification Courses</span></h3>
@@ -1678,6 +1678,9 @@ function toggleFaq(el) {
                <li> <a href="#"> Astro Shop / Store </a></li>
                <li> <a href="#">Free Tools  </a></li>
                <li> <a href="#"> FAQ part of footer</a></li>
+               <li> <a href="privacypolicy.html"> Privacy Policy</a></li>
+               <li> <a href="termsandcondision.html"> Payment Terms & Conditions</a></li>
+               <li> <a href="cancellation.html"> Refund & Cancellation Policy</a></li>
              </ul>
           </div>
         </div>
@@ -1747,11 +1750,11 @@ function toggleFaq(el) {
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                     COURSES
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Beginner Astrology</a></li>
-                    <li><a class="dropdown-item" href="#">Advanced Astrology</a></li>
-                    <li><a class="dropdown-item" href="#">Predictive Astrology</a></li>
-                    <li><a class="dropdown-item" href="#">Certification Courses</a></li>
+                  <ul class="dropdown-menu">1
+                    <li><a class="dropdown-item" href="#course1">Beginner Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course2">Advanced Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course3">Predictive Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course4">Certification Courses</a></li>
                   </ul>
                 </li>
                  
@@ -1770,7 +1773,8 @@ function toggleFaq(el) {
                    
                 <li class="nav-item">
                   <a class="nav-link" href="#">FREE TOOLS </a>
-                </li>
+                </li> 
+                
               </ul>
               
             </div>
@@ -1959,6 +1963,30 @@ function toggleFaq(el) {
     
     });
     
+</script> 
+<script>
+document.querySelectorAll('.dropdown-item').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href');
+    const target = document.querySelector(targetId);
+
+    if (target) {
+
+      // agar hidden card hai to pehle show karo
+      if(target.classList.contains("extra-card")){
+        document.querySelector(".extra-card").style.display = "block";
+      }
+
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+
+    }
+  });
+});
 </script>
 
 

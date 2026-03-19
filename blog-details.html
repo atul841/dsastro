@@ -23,11 +23,80 @@
 
 <body>
 
+  <section class="report-bar">
+  <div class="label" style="color: #000;">Popular Reports</div>
+
+  <div class="scroll-wrapper">
+    <div class="scroll-content">
+      <span class="item"><b class="new">New</b> 2026 Financial Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Career Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Marriage Horoscope Based on Your Birth Chart</span>
+
+      <!-- duplicate for smooth loop -->
+      <span class="item"><b class="new">New</b> 2026 Financial Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Career Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Marriage Horoscope Based on Your Birth Chart</span>
+    </div>
+  </div>
+</section> 
+<style>
+  .report-bar {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(9,12,52), rgb(25,11,26));
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.label {
+  background: rgb(249, 232, 1);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.scroll-wrapper {
+  overflow: hidden;
+  flex: 1;
+}
+
+.scroll-content {
+  display: inline-flex;
+  gap: 40px;
+  white-space: nowrap;
+  animation: scrollLeft 20s linear infinite;
+}
+
+.item {
+  color: #fff;
+  font-size: 14px;
+}
+
+.new {
+  background: #ffd43b;
+  color: #000;
+  padding: 3px 8px;
+  margin-right: 6px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+</style>
   <header class="float-start w-100">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="index-1.html">
-          <img alt="logo" src="images/logo-1.png">
+        <a class="navbar-brand" href="index.html">
+          <img alt="logo" src="images/logo.png"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu">
           <span> <i class="fas fa-bars"></i> </span>
@@ -35,37 +104,53 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="astrologer-1.html">Astrologer</a>
+              <a class="nav-link" href="astrologer.html">HOME</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                Horoscope
+                CONSULTATIONS
               </a>
               <ul class="dropdown-menu dropdown-menu1">
-                <li><a class="dropdown-item" href="love-1.html">Love</a></li>
-                <li><a class="dropdown-item" href="love-1.html">Career</a></li>
-                <li><a class="dropdown-item" href="love-1.html">Money</a></li>
-                <li><a class="dropdown-item" href="love-1.html">Health & Beauty</a></li>
+                <li><a class="dropdown-item" href="#">Personal Horoscope</a></li>
+                <li><a class="dropdown-item" href="#">Marriage/Relationship</a></li>
+                <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
+                <li><a class="dropdown-item" href="#">Muhurat</a></li>
+                <li><a class="dropdown-item" href="#">Health Astrology</a></li>
               </ul>
             </li>
            
             <li class="nav-item">
-              <a class="nav-link" href="tarot-1.html">Tarot </a>
+              <a class="nav-link" href="#">ABOUT </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="numerology-1.html">Numerology </a>
+              <a class="nav-link" href="#">BLOG </a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                More
+                COURSES
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="about-1.html">About Us</a></li>
-                <li><a class="dropdown-item" href="blog-1.html">Blog</a></li>
-                <li><a class="dropdown-item" href="contact-us-1.html">Contact</a></li>
+              <ul class="dropdown-menu dropdown-menu1">
+                <li><a class="dropdown-item" href="#">Beginner Astrology</a></li>
+                <li><a class="dropdown-item" href="#">Advanced Astrology</a></li>
+                <li><a class="dropdown-item" href="#">Predictive Astrology</a></li>
+                <li><a class="dropdown-item" href="#">Certification Courses</a></li>
               </ul>
             </li>
-            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                ASTRO SHOP / STORE
+              </a>
+              <ul class="dropdown-menu dropdown-menu1">
+                <li><a class="dropdown-item" href="#">Gemstones</a></li>
+                <li><a class="dropdown-item" href="#">Rudraksha</a></li>
+                <li><a class="dropdown-item" href="#">Yantras</a></li>
+                <li><a class="dropdown-item" href="#">Puja Kits</a></li>
+                <li><a class="dropdown-item" href="#">Bracelets</a></li>
+              </ul>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">FREE TOOLS </a>
+            </li>
            
           </ul>
           
@@ -73,29 +158,17 @@
         <div class="d-none d-lg-block">
             <div class="right-menui">
               <ul>
-                  <li>
-                    <div class="cusotme-ph">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewbox="0 0 16 16">
-                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
-                          </svg>
-                        </span>
-                        <span>
-                          Customer Care
-                          <b class="d-block">1800-254-256</b>
-                        </span>
-                    </div>
-                  </li>
+                  
                   
                   <li>
-                    <a data-bs-toggle="modal" href="#registerModal" class="btn consult-btn"> Consult Now </a>
+                    <a data-bs-toggle="modal" href="#registerModal" class="btn consult-btn"> BOOK CONSULTATION </a>
                   </li>
               </ul>
             </div>
         </div>
       </div>
     </nav>
-   </header>
+</header> 
 
  <section class="sub-banner-section float-start w-100">
     <div class="img-main-abnner d-inline-block w-100">
@@ -295,135 +368,162 @@
  </main>
 
  <footer class="float-start w-100 pt-5">
-  <div class="container">
-     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 align-content-center">
-        <div class="col">
-           <a href="index-1.html">
-             <img alt="logo" src="images/logo-1.png">
-           </a>
-           <p class="text-white mt-3 col-lg-10"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-        </div>
-        <div class="col">
-           <div class="colm-footer">
-              <h5> Contact Us </h5>
-              <ul>
-                <li> <i class="fab fa-whatsapp"></i> +62-311-89-90-19</li>
-                <li> <i class="fas fa-paper-plane"></i> exmaple@gmail.com</li>
-                <li> <i class="fas fa-phone-alt"></i> +62-311-89-90-19</li>
-              </ul>
-           </div>
-        </div>
-        <div class="col">
+    <div class="container">
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 align-content-center">
+          <div class="col">
+             <a href="index.html">
+               <img alt="logo" src="images/logo.png"/>
+             </a>
+             <p class="text-white mt-3 col-lg-10"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+          </div>
+          <div class="col">
+             <div class="colm-footer">
+                <h5> Contact Us </h5>
+                <ul>
+                  <li> <i class="fab fa-whatsapp"></i> +91 8418-9039-66</li>
+                  <li> <i class="fas fa-paper-plane"></i> dsastro@gmail.com</li>
+                  <li> <i class="fas fa-phone-alt"></i> +91 8418-9039-66</li>
+                </ul>
+             </div>
+          </div>
+          <div class="col">
+            <div class="colm-footer">
+               <h5> Consultations </h5>
+               <ul>
+                 <li> <a href="#">Personal Horoscope </a></li>
+                 <li> <a href="#"> Marriage / Relationship </a></li>
+                 <li> <a href="#"> Career & Bussiness </a></li>
+                 <li> <a href="#"> Muhurat </a></li>
+                 <li> <a href="#">Health  Astrology </a></li>
+                 <li> <a href="#">Student Login </a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="col">
           <div class="colm-footer">
-             <h5> Our Services </h5>
+             <h5> Quick Links </h5>
              <ul>
-               <li> <a href="tarot-1.html">Tarot </a></li>
-               <li> <a href="numerology-1.html"> Numerology </a></li>
-               <li> <a href="astrologer-1.html"> Astrologer </a></li>
+               <li> <a href="#"> About </a></li>
+               <li> <a href="#">Blog </a></li>
+               <li> <a href="#"> Contact </a></li>
+               <li> <a href="#"> Astro Shop / Store </a></li>
+               <li> <a href="#">Free Tools  </a></li>
+               <li> <a href="#"> FAQ part of footer</a></li>
+               <li> <a href="privacypolicy.html"> Privacy Policy</a></li>
+               <li> <a href="termsandcondision.html"> Payment Terms & Conditions</a></li>
+               <li> <a href="cancellation.html"> Refund & Cancellation Policy</a></li>
              </ul>
           </div>
-       </div>
-       <div class="col">
-        <div class="colm-footer">
-           <h5> Quick Links </h5>
-           <ul>
-             <li> <a href="about-1.html"> About </a></li>
-             <li> <a href="blog-1.html">Blog </a></li>
-             <li> <a href="contact-us-1.html"> Contact </a></li>
-           </ul>
         </div>
-      </div>
-     </div>
-     <hr class="my-4">
-     <div class="d-flex align-items-center justify-content-between">
-        <p> Copyright © 2023. All rights reserved.</p>
-        <ul>
-          <li>
-            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-            <a href="#" class="mx-2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewbox="0 0 16 16">
-  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path>
+       </div>
+       <hr class="my-4"/>
+       <div class="d-flex align-items-center justify-content-between">
+          <p> Copyright © 2026. All rights reserved.</p>
+          <ul>
+            <li>
+              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+              <a href="#" class="mx-2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
 </svg> </a>
-            <a href="#"> <i class="fab fa-instagram"></i> </a>
-          </li>
-        </ul>
-     </div>
-  </div>
-</footer>
+              <a href="#"> <i class="fab fa-instagram"></i> </a>
+            </li>
+          </ul>
+       </div>
+    </div>
+ </footer>
 
 
 <!-- mobile menu -->
 
-<div class="offcanvas offcanvas-end mobile-menu-div" id="mobile-menu">
-<div class="offcanvas-header">
-  
-   <button type="button" class="close-menu" data-bs-dismiss="offcanvas">
-    <span> Close </span> <i class="fas fa-long-arrow-alt-right"></i>
-   </button>
-</div>
-
+<div class="offcanvas offcanvas-end mobile-menu-div"  id="mobile-menu">
+  <div class="offcanvas-header">
     
-  <div class="offcanvas-body">
-    
-    <div class="head-contact">
-       <a href="index-1.html" class="logo-side">
-       <img src="images/logo-drk.png" alt="logo">
-       </a>
-       
-       <div class="mobile-menu-sec mt-5">
-        <nav class="navbar navbar-expand navbar-light">
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="astrologer-1.html">Astrologer</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                  Horoscope
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="love-1.html">Love</a></li>
-                  <li><a class="dropdown-item" href="love-1.html">Career</a></li>
-                  <li><a class="dropdown-item" href="love-1.html">Money</a></li>
-                  <li><a class="dropdown-item" href="love-1.html">Health & Beauty</a></li>
-                </ul>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link" href="tarot-1.html">Tarot </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="numerology-1.html">Numerology </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                  More
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about-1.html">About Us</a></li>
-                  <li><a class="dropdown-item" href="blog-1.html">Blog</a></li>
-                  <li><a class="dropdown-item" href="contact-us-1.html">Contact</a></li>
-                </ul>
-              </li>
-              
-             
-            </ul>
-            
-          </div>
-        </nav>
-       </div>
-       
-       <ul class="side-media list-unstyled">
-          <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
-          <li> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewbox="0 0 16 16">
-  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path>
-</svg> </a> </li>
-          <li> <a href="#"> <i class="fab fa-google-plus-g"></i> </a> </li>
-          <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
-       </ul>
-    </div>
+     <button type="button" class="close-menu" data-bs-dismiss="offcanvas">
+      <span> Close </span> <i class="fas fa-long-arrow-alt-right"></i>
+     </button>
   </div>
   
-
+      
+    <div class="offcanvas-body">
+      
+      <div class="head-contact">
+         <a href="index.html" class="logo-side">
+         <img src="images/logo-drk.png" alt="logo">
+         </a>
+         
+         <div class="mobile-menu-sec mt-5">
+          <nav class="navbar navbar-expand navbar-light">
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                      CONSULTATIONS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Personal Horoscope</a></li>
+                    <li><a class="dropdown-item" href="#">Marriage/Relationship</a></li>
+                    <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
+                    <li><a class="dropdown-item" href="#">Muhurat</a></li>
+                    <li><a class="dropdown-item" href="#">Health Astrology</a></li>
+                  </ul>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BLOG </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    COURSES
+                  </a>
+                  <ul class="dropdown-menu">1
+                    <li><a class="dropdown-item" href="#course1">Beginner Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course2">Advanced Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course3">Predictive Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course4">Certification Courses</a></li>
+                  </ul>
+                </li>
+                 
+                 <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    ASTRO SHOP / STORE
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Gemstones</a></li>
+                    <li><a class="dropdown-item" href="#">Rudraksha</a></li>
+                    <li><a class="dropdown-item" href="#">Yantras</a></li>
+                    <li><a class="dropdown-item" href="#">Puja Kits</a></li>
+                    <li><a class="dropdown-item" href="#">Bracelets</a></li>
+                  </ul>
+                </li>
+                   
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FREE TOOLS </a>
+                </li> 
+                
+              </ul>
+              
+            </div>
+          </nav>
+         </div>
+         
+         <ul class="side-media list-unstyled">
+            <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+            <li> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg></a> </li>
+            <li> <a href="#"> <i class="fab fa-google-plus-g"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+         </ul>
+      </div>
+    </div>
+    
+ 
 </div>
 
 
