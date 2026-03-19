@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
-     
+    
 </head>
 <body>
     <section class="report-bar">
@@ -105,26 +105,40 @@
               <a class="nav-link" href="astrologer.html">HOME</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                CONSULTATIONS
-              </a>
-              <ul class="dropdown-menu dropdown-menu1">
-                <li><a class="dropdown-item" href="#">Personal Horoscope</a></li>
-                <li><a class="dropdown-item" href="#">Marriage/Relationship</a></li>
-                <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
-                <li><a class="dropdown-item" href="#">Muhurat</a></li>
-                <li><a class="dropdown-item" href="#">Health Astrology</a></li>
-              </ul>
-            </li>
+  
+  <div class="d-flex align-items-center">
+
+    <!-- TEXT CLICK = PAGE OPEN -->
+    <a class="nav-link" href="consultations.html">
+      CONSULTATIONS
+    </a>
+
+    <!-- ARROW CLICK = DROPDOWN -->
+    <a class="nav-link dropdown-toggle dropdown-toggle-split"
+       href="#"
+       data-bs-toggle="dropdown">
+    </a>
+
+  </div>
+
+  <ul class="dropdown-menu dropdown-menu1">
+    <li><a class="dropdown-item" href="consultations.html">Personal Horoscope</a></li>
+    <li><a class="dropdown-item" href="consultations.html">Marriage/Relationship</a></li>
+    <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
+    <li><a class="dropdown-item" href="#">Muhurat</a></li>
+    <li><a class="dropdown-item" href="#">Health Astrology</a></li>
+  </ul>
+
+</li>
            
             <li class="nav-item">
               <a class="nav-link" href="#">ABOUT </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BLOG </a>
+              <a class="nav-link" href="blog.html">BLOG </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <a class="nav-link dropdown-toggle" href="coursestart" role="button" data-bs-toggle="dropdown">
                 COURSES
               </a>
               <ul class="dropdown-menu dropdown-menu1">
@@ -166,767 +180,153 @@
         </div>
       </div>
     </nav>
-</header>  
+   </header>  
 
-   <!-- All Details here that   --> 
-    <section class="consultation-section">
-  <h2 class="main-title">CONSULTATION</h2>
 
-  <div class="category-bar">Marriage/Relationship</div>
 
-  <div class="card-grid">
+   <section class="contact-section">
 
-    <!-- CARD -->
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1516589091380-5d8e87df6999" />
-        <div class="badge purple">Consultation <br> for Married Life <br> issues</div>
-      </div>
-      <p>Astrology Consultation for Married Life issues</p>
-      <div class="btns">
-  <button class="read">Read more</button>
-  <a href="#" class="book" onclick="openModal()">Book Now</a>
-</div>
+  <div class="contact-container">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-left">
+      <h2>Contact Us</h2>
+
+      <p><i class="fas fa-building"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, vitae.</p>
+      <p><i class="fas fa-phone"></i> +91 8418903966, +91 8529637412</p>
+      <p><i class="fas fa-envelope"></i> mail@dsastro.com</p>
+
+      <img src="images/logo.png" alt="logo" class="contact-logo">
     </div>
 
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" />
-        <div class="badge pink">Consultation <br> for Manglik <br> Dosh</div>
-      </div>
-      <p>Astrology Consultation for Mangal Dosha</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
+    <!-- RIGHT SIDE FORM -->
+    <div class="contact-right">
 
-    
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text">
+      </div>
 
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" />
-        <div class="badge pink">Consultation <br> for Love Marriage <br> Issues</div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email">
       </div>
-      <p>Astrology Consultation for Love Marriage Issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
 
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df" />
-        <div class="badge orange">Consultation <br> for Future Life <br> Partner</div>
+      <div class="form-group">
+        <label>Phone number</label>
+        <input type="text">
       </div>
-      <p>Astrology Consultation for Future Life Partner</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
+
+      <div class="form-group">
+        <label>Message</label>
+        <textarea rows="5"></textarea>
       </div>
+
+      <button class="submit-btn">Submit</button>
+
     </div>
 
   </div>
-   
-  <!-- Second Service  -->
-  <div class="category-bar">Personal Horoscope</div>
 
-  <div class="card-grid">
+</section>
 
-    <!-- CARD -->
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1516589091380-5d8e87df6999" />
-        <div class="badge purple">Consultation <br> for Married Life <br> issues</div>
-      </div>
-      <p>Astrology Consultation for Married Life issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
 
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" />
-        <div class="badge pink">Consultation <br> for Manglik <br> Dosh</div>
-      </div>
-      <p>Astrology Consultation for Mangal Dosha</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1529336953121-ad5a0d43d0d2" />
-        <div class="badge red">Consultation <br> for Pre Marriage <br> Counselling</div>
-      </div>
-      <p>Consultation for Pre-Marriage Counselling</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-       <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" />
-        <div class="badge pink">Consultation <br> for Love Marriage <br> Issues</div>
-      </div>
-      <p>Astrology Consultation for Love Marriage Issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df" />
-        <div class="badge orange">Consultation <br> for Future Life <br> Partner</div>
-      </div>
-      <p>Astrology Consultation for Future Life Partner</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-  </div> 
-
-  <!-- third service add  --> 
-   <div class="category-bar">Career & Bussiness</div>
-
-  <div class="card-grid">
-
-    <!-- CARD -->
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1516589091380-5d8e87df6999" />
-        <div class="badge purple">Consultation <br> for Married Life <br> issues</div>
-      </div>
-      <p>Astrology Consultation for Married Life issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" />
-        <div class="badge pink">Consultation <br> for Manglik <br> Dosh</div>
-      </div>
-      <p>Astrology Consultation for Mangal Dosha</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1529336953121-ad5a0d43d0d2" />
-        <div class="badge red">Consultation <br> for Pre Marriage <br> Counselling</div>
-      </div>
-      <p>Consultation for Pre-Marriage Counselling</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" />
-        <div class="badge pink">Consultation <br> for Love Marriage <br> Issues</div>
-      </div>
-      <p>Astrology Consultation for Love Marriage Issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-       <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df" />
-        <div class="badge orange">Consultation <br> for Future Life <br> Partner</div>
-      </div>
-      <p>Astrology Consultation for Future Life Partner</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-  </div> 
-   
-  <!-- Fouth service here  --> 
-   <div class="category-bar">Muhurat</div>
-
-  <div class="card-grid">
-
-    <!-- CARD -->
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1516589091380-5d8e87df6999" />
-        <div class="badge purple">Consultation <br> for Married Life <br> issues</div>
-      </div>
-      <p>Astrology Consultation for Married Life issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" />
-        <div class="badge pink">Consultation <br> for Manglik <br> Dosh</div>
-      </div>
-      <p>Astrology Consultation for Mangal Dosha</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" />
-        <div class="badge pink">Consultation <br> for Love Marriage <br> Issues</div>
-      </div>
-      <p>Astrology Consultation for Love Marriage Issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df" />
-        <div class="badge orange">Consultation <br> for Future Life <br> Partner</div>
-      </div>
-      <p>Astrology Consultation for Future Life Partner</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-  </div> 
-
-  <!-- Five service add here  --> 
-   <div class="category-bar">Health Astrology</div>
-
-  <div class="card-grid">
-
-    <!-- CARD -->
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1516589091380-5d8e87df6999" />
-        <div class="badge purple">Consultation <br> for Married Life <br> issues</div>
-      </div>
-      <p>Astrology Consultation for Married Life issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" />
-        <div class="badge pink">Consultation <br> for Manglik <br> Dosh</div>
-      </div>
-      <p>Astrology Consultation for Mangal Dosha</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" />
-        <div class="badge pink">Consultation <br> for Love Marriage <br> Issues</div>
-      </div>
-      <p>Astrology Consultation for Love Marriage Issues</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df" />
-        <div class="badge orange">Consultation <br> for Future Life <br> Partner</div>
-      </div>
-      <p>Astrology Consultation for Future Life Partner</p>
-      <div class="btns">
-        <button class="read">Read more</button>
-        <a href="#" class="book" onclick="openModal()">Book Now</a>
-      </div>
-    </div>
-
-  </div>
-</section> 
+<!-- MAP -->
+<div class="map-section">
+  <iframe 
+    src="https://www.google.com/maps?q=sector+66+noida&output=embed"
+    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe>
+</div> 
 
 <style>
-    .consultation-section {
-  padding: 200px;
+    .contact-section {
+  padding: 120px;
   
-  border-radius: 12px;
 }
 
-.main-title {
-  text-align: center;
-  background: linear-gradient(90deg, #0b1220, #0d1b3a);
-  color: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.category-bar {
-  margin: 20px 0;
-  background: #2f55d4;
-  color: #fff;
-  padding: 12px 20px;
-  font-weight: 600;
-  border-radius: 5px;
-}
-
-.card-grid {
+/* GRID */
+.contact-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 
-/* CARD */
-.card {
-  background: #e6d3b3;
-  padding: 10px;
-  border-radius: 6px;
-  transition: 0.3s;
+/* LEFT */
+.contact-left h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
-.card:hover {
-  transform: translateY(-5px);
+.contact-left p {
+  margin-bottom: 15px;
+  font-size: 16px;
 }
 
-.card-img {
-  position: relative;
-  overflow: hidden;
+.contact-left i {
+  margin-right: 10px;
 }
 
-.card-img img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-/* BADGE */
-.badge {
-  position: absolute;
-  bottom: -20px;
-  left: 60px;
-  width: 80%;
-  padding: 20px;
-  color: yellow;
-  font-weight: bold;
-  text-align: center;
-  border-top-left-radius: 250px;
-  border-top-right-radius: 50px;
-  height: 100px; 
-  
-}
-
-/* COLORS */
-.purple { background: #6a2c91; }
-.pink { background: #e6007e; }
-.red { background: #d4145a; }
-.orange { background: #f25c2a; }
-
-.card p {
+.contact-logo {
   margin-top: 30px;
-  font-size: 14px;
-  color: #000;
+  width: 200px;
+  opacity: 0.9;
 }
 
-/* BUTTONS */
-.btns {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+/* RIGHT FORM */
+.form-group {
+  margin-bottom: 20px;
 }
 
-.read {
-  background: #f6b26b;
-  border: none;
-  padding: 8px 12px;
-  cursor: pointer;
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
 }
 
-.book {
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #222;
+  background: #eee;
+}
+
+/* BUTTON */
+.submit-btn {
   background: #ff6a00;
-  color: #fff;
+  color: #000;
+  padding: 10px 25px;
   border: none;
-  padding: 8px 12px;
+  border-radius: 8px;
   cursor: pointer;
+  float: right;
+}
+
+.submit-btn:hover {
+  background: #ff8533;
+}
+
+/* MAP */
+.map-section {
+  margin-top: -70px;
 }
 
 /* RESPONSIVE */
-@media (max-width: 768px) {
-  .main-title {
-    font-size: 18px;
-  }
-}  
-
-/* SECTION KO THODA UPAR LANA */
-.consultation-section {
-  margin-top: -90px; /* adjust kar sakte ho */
-}
-
-/* MOBILE IMPROVEMENT */
-@media (max-width: 768px) {
-
-  .consultation-section {
-    padding: 80px 15px !important; /* mobile me padding control */
-    margin-top: -60px;
-  }
-
-  .category-bar {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .card-grid {
+@media(max-width:768px) {
+  .contact-container {
     grid-template-columns: 1fr;
-    gap: 15px;
   }
 
-  .card {
-    border-radius: 10px;
-    padding: 12px;
-  }
-
-  .card-img img {
-    height: 200px;
-  }
-
-  .badge {
-    font-size: 13px;
-    padding: 15px;
-    bottom: -15px;
-  }
-
-  .card p {
-    font-size: 13px;
-    margin-top: 25px;
-  }
-
-  .btns {
-    gap: 10px;
-  }
-
-  .read, .book {
+  .submit-btn {
     width: 100%;
-    padding: 10px;
-    font-size: 13px;
+    float: none;
   }
-}
-</style>  
-
-
-<!-- book now ui section  --> 
-  
-<div id="registerModal" class="modal">
-
-  <div class="modal-content">
-
-    <!-- HEADER -->
-    <div class="modal-header">
-      <h3>Consultation for Pre-Marriage Counselling</h3>
-      <span class="close" onclick="closeModal()">&times;</span>
-    </div>
-
-    <h2 class="price">₹ 11000</h2>
-
-    <!-- ALERT -->
-    <div class="alert">
-      International clients can pay using PayPal at 
-      <b>mail@dsastro.com</b>
-    </div>
-
-    <h4>Please fill your Birth details</h4>
-
-    <!-- FORM -->
-    <div class="form-grid">
-
-      <div>
-        <label>Country Code</label>
-        <select>
-          <option>+91 India</option>
-        </select>
-      </div>
-
-      <div>
-        <label>Mobile Number</label>
-        <input type="text" id="mobile">
-      </div>
-
-      <div>
-        <label>Name</label>
-        <input type="text" id="name">
-      </div>
-
-      <div>
-        <label>Email</label>
-        <input type="email" id="email">
-      </div>
-
-      <div>
-        <label>Date of Birth</label>
-        <input type="date" id="dob">
-      </div>
-
-      <div>
-        <label>Time of Birth</label>
-        <input type="time" id="tob">
-      </div>
-
-      <div class="full">
-        <label>Birth Location</label>
-        <input type="text" id="location">
-      </div>
-
-    </div>
-
-    <button class="submit-btn" onclick="submitForm()">Submit</button>1
-    
-  </div>
-</div>  
-
-<div id="successPopup" class="success-popup">
-  <div class="success-box">
-    <h2>✅ Form Submitted</h2>
-    <p>Your details have been submitted successfully!</p>
-    <button onclick="closeSuccess()">OK</button>
-  </div>
-</div>
-
-<style>
-    /* MODAL BG */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.6);
-}
-
-/* BOX */
-.modal-content {
-  background: #fff;
-  width: 90%;
-  max-width: 700px;
-  margin: 50px auto;
-  padding: 20px;
-  border-radius: 10px;
-  animation: fadeIn 0.3s ease;
-}
-
-/* HEADER */
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.modal-header h3 {
-  font-size: 18px;
-}
-
-.close {
-  font-size: 25px;
-  cursor: pointer;
-}
-
-/* PRICE */
-.price {
-  color: green;
-  margin: 10px 0;
-}
-
-/* ALERT */
-.alert {
-  background: #f7e7b6;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 15px 0;
-}
-
-/* FORM GRID */
-.form-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-
-.form-grid .full {
-  grid-column: span 2;
-}
-
-input, select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* SUBMIT */
-.submit-btn {
-  width: 100%;
-  margin-top: 20px;
-  padding: 12px;
-  background: linear-gradient(90deg, #5a4bff, #6f5bff);
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-/* ANIMATION */
-@keyframes fadeIn {
-  from {opacity: 0; transform: translateY(-20px);}
-  to {opacity: 1;}
-}
-
-/* MOBILE */
-@media(max-width:768px){
-  .form-grid {
-    grid-template-columns: 1fr;
-  }
-} 
-
-
-.success-popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.6);
-  z-index: 9999;
-}
-
-.success-box {
-  background: #fff;
-  width: 90%;
-  max-width: 350px;
-  margin: 150px auto;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  animation: pop 0.3s ease;
-}
-
-.success-box h2 {
-  color: green;
-  margin-bottom: 10px;
-}
-
-.success-box button {
-  margin-top: 10px;
-  padding: 8px 20px;
-  border: none;
-  background: #5a4bff;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-@keyframes pop {
-  from { transform: scale(0.7); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
 }
 </style> 
 
-<script>
-function openModal() {
-  document.getElementById("registerModal").style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById("registerModal").style.display = "none";
-}
-
-window.onclick = function(e) {
-  let modal = document.getElementById("registerModal");
-  if (e.target == modal) {
-    modal.style.display = "none";
-  }
-} 
-
-
-async function submitForm() {
-
-  const data = {
-    countryCode: "+91 India",
-    mobile: document.getElementById("mobile").value,
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    dob: document.getElementById("dob").value,
-    tob: document.getElementById("tob").value,
-    location: document.getElementById("location").value,
-  };
-
-  try {
-    await fetch("http://localhost:5000/api/consultation", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(data)
-    });
-
-    // 🔥 FORM HIDE
-    document.querySelector(".modal-content").style.display = "none";
-
-    // ✅ SUCCESS POPUP SHOW
-    document.getElementById("successPopup").style.display = "block";
-
-  } catch (err) {
-    alert("Error submitting form ❌");
-  }
-}
-
-function closeSuccess() {
-  document.getElementById("successPopup").style.display = "none";
-  location.reload(); // optional reset
-}
-</script>
-
-<!-- footer here that  --> 
-
-<footer class="float-start w-100 pt-5" style="margin-top: -130px;">
+<footer class="float-start w-100 pt-5" >
     <div class="container">
        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 align-content-center">
           <div class="col">
@@ -1278,5 +678,7 @@ document.querySelectorAll('.dropdown-item').forEach(link => {
 });
 </script> 
 
-</body> 
+
+
+</body>
 </html>
