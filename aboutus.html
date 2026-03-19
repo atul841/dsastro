@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;600;700&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@100&display=swap" rel="stylesheet"/>
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
+    
+</head>
+<body>
+     <section class="report-bar">
+  <div class="label" style="color: #000;">Popular Reports</div>
+
+  <div class="scroll-wrapper">
+    <div class="scroll-content">
+      <span class="item"><b class="new">New</b> 2026 Financial Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Career Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Marriage Horoscope Based on Your Birth Chart</span>
+
+      <!-- duplicate for smooth loop -->
+      <span class="item"><b class="new">New</b> 2026 Financial Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Career Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Marriage Horoscope Based on Your Birth Chart</span>
+    </div>
+  </div>
+</section> 
+<style>
+  .report-bar {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(9,12,52), rgb(25,11,26));
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.label {
+  background: rgb(249, 232, 1);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.scroll-wrapper {
+  overflow: hidden;
+  flex: 1;
+}
+
+.scroll-content {
+  display: inline-flex;
+  gap: 40px;
+  white-space: nowrap;
+  animation: scrollLeft 20s linear infinite;
+}
+
+.item {
+  color: #fff;
+  font-size: 14px;
+}
+
+.new {
+  background: #ffd43b;
+  color: #000;
+  padding: 3px 8px;
+  margin-right: 6px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+</style>
+  <header class="float-start w-100">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img alt="logo" src="images/logo.png"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu">
+          <span> <i class="fas fa-bars"></i> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="astrologer.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+  
+  <div class="d-flex align-items-center">
+
+    <!-- TEXT CLICK = PAGE OPEN -->
+    <a class="nav-link" href="consultations.html">
+      CONSULTATIONS
+    </a>
+
+    <!-- ARROW CLICK = DROPDOWN -->
+    <a class="nav-link dropdown-toggle dropdown-toggle-split"
+       href="#"
+       data-bs-toggle="dropdown">
+    </a>
+
+  </div>
+
+  <ul class="dropdown-menu dropdown-menu1">
+    <li><a class="dropdown-item" href="consultations.html">Personal Horoscope</a></li>
+    <li><a class="dropdown-item" href="consultations.html">Marriage/Relationship</a></li>
+    <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
+    <li><a class="dropdown-item" href="#">Muhurat</a></li>
+    <li><a class="dropdown-item" href="#">Health Astrology</a></li>
+  </ul>
+
+</li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">BLOG </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="coursestart" role="button" data-bs-toggle="dropdown">
+                COURSES
+              </a>
+              <ul class="dropdown-menu dropdown-menu1">
+                <li><a class="dropdown-item" href="#">Beginner Astrology</a></li>
+                <li><a class="dropdown-item" href="#">Advanced Astrology</a></li>
+                <li><a class="dropdown-item" href="#">Predictive Astrology</a></li>
+                <li><a class="dropdown-item" href="#">Certification Courses</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                ASTRO SHOP / STORE
+              </a>
+              <ul class="dropdown-menu dropdown-menu1">
+                <li><a class="dropdown-item" href="#">Gemstones</a></li>
+                <li><a class="dropdown-item" href="#">Rudraksha</a></li>
+                <li><a class="dropdown-item" href="#">Yantras</a></li>
+                <li><a class="dropdown-item" href="#">Puja Kits</a></li>
+                <li><a class="dropdown-item" href="#">Bracelets</a></li>
+              </ul>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">FREE TOOLS </a>
+            </li>
+           
+          </ul>
+          
+        </div>
+        <div class="d-none d-lg-block">
+            <div class="right-menui">
+              <ul>
+                  
+                  
+                  <li>
+                    <a data-bs-toggle="modal" href="#registerModal" class="btn consult-btn"> BOOK CONSULTATION </a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </nav>
+   </header>  
+    
+
+   <!-- part frist section here that  -->
+
+   <section class="hero-section">
+
+  <div class="hero-content">
+
+    <!-- LEFT -->
+    <div class="hero-left">
+      <h1>100k+</h1>
+      <p>Consultation Done</p>
+    </div>
+
+    <!-- RIGHT TEXT -->
+    <div class="hero-right">
+      <h2>Dr. Lorem, ipsum dolor.</h2>
+      <div class="cta-box">
+        🏆 Get Your Star Blessing Back
+      </div>
+    </div>
+
+  </div>
+
+  <!-- IMAGE -->
+  <img src="manimage.png" class="hero-img" alt="doctor">
+
+  <!-- ABOUT BOX -->
+  <div class="about-box">
+    <h3>About us</h3>
+    <p>Home / About us</p>
+  </div>
+
+</section>
+
+<style>
+    .hero-section {
+  position: relative;
+  height: 300px; 
+  
+  margin-top: 100px;
+  background: linear-gradient(90deg, #f7c400 40%, #f57c00 60%);
+  overflow: hidden; 
+  
+}
+
+/* CONTENT */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 60px;
+}
+
+/* LEFT TEXT */
+.hero-left h1 {
+  font-size: 70px;
+  color: #b30000;
+  font-weight: 700;
+}
+
+.hero-left p {
+  font-size: 22px;
+  color: #b30000;
+}
+
+/* RIGHT TEXT */
+.hero-right {
+  text-align: right;
+}
+
+.hero-right h2 {
+  font-size: 32px;
+  color: #fff;
+  font-family: cursive;
+}
+
+/* CTA */
+.cta-box {
+  margin-top: 10px;
+  display: inline-block;
+  background: #ffcc00;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* IMAGE */
+.hero-img {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  transform: translateX(-50%);
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ABOUT BOX */
+.about-box {
+  position: absolute;
+  bottom: -30px;
+  left: 60px;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.about-box h3 {
+  color: #b30000;
+  margin: 0;
+}
+
+.about-box p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px) {
+
+  .hero-section {
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+
+  .hero-left h1 {
+    font-size: 40px;
+  }
+
+  .hero-right {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .hero-img {
+    position: static;
+    transform: none;
+    height: 200px;
+    margin-top: 10px;
+  }
+
+  .about-box {
+    position: static;
+    margin-top: 20px;
+  }
+}
+</style>
+ 
+<!-- second part start here that  --> 
+<section class="about-section">
+
+  <h2 class="about-title">About Lorem, ipsum dolor.</h2>
+
+  <div class="about-container">
+
+    <!-- LEFT TEXT -->
+    <div class="about-text">
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quisquam maiores nesciunt magni sed tenetur eligendi.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dicta!
+        <b>‘Lorem ipsum dolor sit amet.’</b>
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iusto molestiae ipsam maxime.
+      </p>
+
+    </div>
+
+    <!-- RIGHT VIDEO -->
+    <div class="about-video">
+
+      <div class="scroll-box">
+
+        <!-- SCROLL IMAGE -->
+        <img src="Parchmen.png" class="scroll-img" alt="scroll">
+
+        <!-- VIDEO -->
+        <div class="video-box">
+          <iframe 
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+    .about-section {
+  padding: 60px;
+ 
+}
+
+/* TITLE */
+.about-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.about-title::before {
+  content: "☀";
+  display: block;
+  color: orange;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+/* GRID */
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* TEXT */
+.about-text p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #fff;
+}
+
+/* SCROLL BOX */
+.scroll-box {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* IMAGE */
+.scroll-img {
+  width: 100%;
+  display: block;
+}
+
+/* VIDEO CENTER */
+.video-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 220px;
+  border-radius: 6px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-section {
+    padding: 30px 15px;
+  }
+
+  .video-box iframe {
+    height: 180px;
+  }
+}
+</style>
+
+
+
+
+<!-- third part here that  --> 
+ <section class="why-section">
+
+  <div class="overlay">
+
+    <div class="container" style="margin-right: 10px;">
+
+      <h2 class="why-title" style="color: #290000;">Why Choose Us</h2>
+
+      <p class="why-desc" style="color: #000; font-weight: 600;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias culpa esse velit vero neque iste vel eligendi.
+      </p>
+
+      <h4 class="why-subtitle" style="color: #000; font-weight: 600;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at deleniti corrupti cupiditate!
+      </h4>
+   <br>
+      <ul class="why-list">
+
+        <li style="color: #000;">
+          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </li>
+
+        <li style="color: #000;">
+          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </li>
+
+        <li style="color: #000;">
+          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </li>
+
+        <li style="color: #000;">
+          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+    .why-section {
+  background: url("Parchmen.png") no-repeat center/cover;
+  position: relative;
+}
+
+
+
+/* TITLE */
+.why-title {
+  color: #ffcc00;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+.why-desc,
+.why-subtitle,
+.why-list li {
+  color: #fff;
+}
+
+/* LIST */
+.why-list {
+  list-style: none;
+  padding: 0;
+}
+
+.why-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+
+
+/* RESPONSIVE */
+@media(max-width:768px) {
+  .overlay {
+    padding: 30px 15px;
+  }
+
+  .why-title {
+    font-size: 22px;
+  } 
+  
+}
+</style> 
+
+<!-- fouth section here that  --> 
+ <section class="aims-section">
+
+  <div class="container">
+
+    <h2 class="aims-title">Our Aims and Objectives</h2>
+
+    <p class="aims-desc">
+      In today's competitive era, astrology is a great tool to connect with the stream of progress.
+      If the human race makes good use of it in a classical and scientific way, it can achieve its goal in a timely manner.
+    </p>
+
+    <p class="aims-desc">
+      <b>IIAG Jyotish Sansthan</b> is working in researching the direction and improvement of the time of birth
+      through Indian Astrology and Krishnamurti Paddhati.
+    </p>
+
+    <p class="aims-subtitle" style="color: white;">
+      The basic objective of the Institute is to:
+    </p>
+
+    <ul class="aims-list">
+
+      <li style="color: white;">
+        <span class="tick">✔</span>
+        To remove doubts and superstitions and prepare astrologers in a methodical manner.
+      </li>
+
+      <li style="color: white;">
+        <span class="tick">✔</span>
+        To provide the highest education in astrology and promote its study for human welfare.
+      </li>
+
+      <li style="color: white;">
+        <span class="tick">✔</span>
+        To provide a high level of astrology science through computer software.
+      </li>
+
+      <li style="color: white;">
+        <span class="tick">✔</span>
+        To solve life problems scientifically and in Vedic form.
+      </li>
+
+    </ul>
+
+  </div>
+
+</section> 
+
+<style>
+    .aims-section {
+  padding: 20px 40px;
+  
+}
+
+/* TITLE */
+.aims-title {
+  color: #8b1c00;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+.aims-desc {
+  color: #fefefe;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* SUBTITLE */
+.aims-subtitle {
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+/* LIST */
+.aims-list {
+  list-style: none;
+  padding: 0;
+}
+
+.aims-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  line-height: 1.6;
+  color: #ffffff; 
+  font-weight: 100;
+}
+
+/* TICK */
+.tick {
+  background: #2ecc71;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 6px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px) {
+  .aims-section {
+    padding: 30px 15px;
+  }
+
+  .aims-title {
+    font-size: 22px;
+  }
+}
+</style> 
+
+ <footer class="float-start w-100 pt-5">
+    <div class="container">
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 align-content-center">
+          <div class="col">
+             <a href="index.html">
+               <img alt="logo" src="images/logo.png"/>
+             </a>
+             <p class="text-white mt-3 col-lg-10"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+          </div>
+          <div class="col">
+             <div class="colm-footer">
+                <h5> Contact Us </h5>
+                <ul>
+                  <li> <i class="fab fa-whatsapp"></i> +91 8418-9039-66</li>
+                  <li> <i class="fas fa-paper-plane"></i> dsastro@gmail.com</li>
+                  <li> <i class="fas fa-phone-alt"></i> +91 8418-9039-66</li>
+                </ul>
+             </div>
+          </div>
+          <div class="col">
+            <div class="colm-footer">
+               <h5> Consultations </h5>
+               <ul>
+                 <li> <a href="#">Personal Horoscope </a></li>
+                 <li> <a href="#"> Marriage / Relationship </a></li>
+                 <li> <a href="#"> Career & Bussiness </a></li>
+                 <li> <a href="#"> Muhurat </a></li>
+                 <li> <a href="#">Health  Astrology </a></li>
+                 <li> <a href="#">Student Login </a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="col">
+          <div class="colm-footer">
+             <h5> Quick Links </h5>
+             <ul>
+               <li> <a href="#"> About </a></li>
+               <li> <a href="#">Blog </a></li>
+               <li> <a href="#"> Contact </a></li>
+               <li> <a href="#"> Astro Shop / Store </a></li>
+               <li> <a href="#">Free Tools  </a></li>
+               <li> <a href="#"> FAQ part of footer</a></li>
+               <li> <a href="privacypolicy.html"> Privacy Policy</a></li>
+               <li> <a href="termsandcondision.html"> Payment Terms & Conditions</a></li>
+               <li> <a href="cancellation.html"> Refund & Cancellation Policy</a></li>
+             </ul>
+          </div>
+        </div>
+       </div>
+       <hr class="my-4"/>
+       <div class="d-flex align-items-center justify-content-between">
+          <p> Copyright © 2026. All rights reserved.</p>
+          <ul>
+            <li>
+              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+              <a href="#" class="mx-2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg> </a>
+              <a href="#"> <i class="fab fa-instagram"></i> </a>
+            </li>
+          </ul>
+       </div>
+    </div>
+ </footer>
+
+
+<!-- mobile menu -->
+
+<div class="offcanvas offcanvas-end mobile-menu-div"  id="mobile-menu">
+  <div class="offcanvas-header">
+    
+     <button type="button" class="close-menu" data-bs-dismiss="offcanvas">
+      <span> Close </span> <i class="fas fa-long-arrow-alt-right"></i>
+     </button>
+  </div>
+  
+      
+    <div class="offcanvas-body">
+      
+      <div class="head-contact">
+         <a href="index.html" class="logo-side">
+         <img src="images/logo-drk.png" alt="logo">
+         </a>
+         
+         <div class="mobile-menu-sec mt-5">
+          <nav class="navbar navbar-expand navbar-light">
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                      CONSULTATIONS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Personal Horoscope</a></li>
+                    <li><a class="dropdown-item" href="#">Marriage/Relationship</a></li>
+                    <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
+                    <li><a class="dropdown-item" href="#">Muhurat</a></li>
+                    <li><a class="dropdown-item" href="#">Health Astrology</a></li>
+                  </ul>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BLOG </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    COURSES
+                  </a>
+                  <ul class="dropdown-menu">1
+                    <li><a class="dropdown-item" href="#course1">Beginner Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course2">Advanced Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course3">Predictive Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course4">Certification Courses</a></li>
+                  </ul>
+                </li>
+                 
+                 <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    ASTRO SHOP / STORE
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Gemstones</a></li>
+                    <li><a class="dropdown-item" href="#">Rudraksha</a></li>
+                    <li><a class="dropdown-item" href="#">Yantras</a></li>
+                    <li><a class="dropdown-item" href="#">Puja Kits</a></li>
+                    <li><a class="dropdown-item" href="#">Bracelets</a></li>
+                  </ul>
+                </li>
+                   
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FREE TOOLS </a>
+                </li> 
+                
+              </ul>
+              
+            </div>
+          </nav>
+         </div>
+         
+         <ul class="side-media list-unstyled">
+            <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+            <li> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg></a> </li>
+            <li> <a href="#"> <i class="fab fa-google-plus-g"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+         </ul>
+      </div>
+    </div>
+    
+ 
+</div>
+
+
+
+
+<!-- login Modal -->
+<div class="modal fade login-div-modal contact-form01" id="loginModal01">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="btn-close colis-btn" data-bs-dismiss="modal">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </span>
+      </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="modla-contact">
+          <h2> Login to your Account</h2>
+          <div class="form-div-sections mt-5 d-inline-block w-100 px-5">
+             <form name="fmn" action="mj" method="post">
+                 <div class="row" data-aos="fade-down">
+                     <div class="col-lg-6">
+                        <div class="form-group">
+                          <label> Full Name </label>
+                          <input type="text" class="form-control" placeholder="Enter your name" required />
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                      <div class="form-group">
+                        <label> Your Email </label>
+                        <input type="email" class="form-control" placeholder="Enter your email" required />
+                      </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="form-group">
+                          <label> Date of Birth </label>
+                          <input id="datepicker" placeholder="DD/MM/YYYY" class="form-control"/>
+                          
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                      <div class="form-group">
+                        <label> Time Of Birth </label>
+                        <input type="text" class="form-control" placeholder="12:00" required />
+                        
+                      </div>
+                     </div>
+                     <div class="col-lg-12">
+                      <div class="form-group">
+                        <label> Place of Birth </label>
+                        <input type="text" class="form-control" placeholder="Enter your City" required />
+                        
+                      </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <input type="submit" class="btn btn-submit" value="Signup"/>
+                     </div>
+                  </div>
+              </form>
+          </div>
+
+          <p class="text-center  mt-3 mb-5"> Do not have an account? 
+            <a data-bs-toggle="modal" class="regster-bn" data-bs-target="#registerModal" data-bs-dismiss="modal"> Register </a>  </p>
+        </div>
+
+        
+         
+      
+
+      
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- register Modal -->
+
+<div class="modal fade login-div-modal contact-form01" id="registerModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="btn-close colis-btn" data-bs-dismiss="modal">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </span>
+      </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="modla-contact">
+          <h2> Sign Up for & consult your favourite Astrologer</h2>
+          <div class="form-div-sections mt-5 d-inline-block w-100 px-5">
+             <form name="fmn" action="mj" method="post">
+                 <div class="row" data-aos="fade-down">
+                     <div class="col-lg-6">
+                        <div class="form-group">
+                          <label> Full Name </label>
+                          <input type="text" class="form-control" placeholder="Enter your name" required />
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                      <div class="form-group">
+                        <label> Your Email </label>
+                        <input type="email" class="form-control" placeholder="Enter your email" required />
+                      </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="form-group">
+                          <label> Date of Birth </label>
+                          <input id="datepicker" placeholder="DD/MM/YYYY" class="form-control"/>
+                          
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                      <div class="form-group">
+                        <label> Time Of Birth </label>
+                        <input type="text" class="form-control" placeholder="12:00" required />
+                        
+                      </div>
+                     </div>
+                     <div class="col-lg-12">
+                      <div class="form-group">
+                        <label> Place of Birth </label>
+                        <input type="text" class="form-control" placeholder="Enter your City" required />
+                        
+                      </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <input type="submit" class="btn btn-submit" value="Signup"/>
+                     </div>
+                  </div>
+              </form>
+          </div>
+
+          
+          <p class="text-center  mt-3 mb-5"> Do not have an account? 
+            <a data-bs-toggle="modal" class="regster-bn" data-bs-target="#loginModal" data-bs-dismiss="modal"> Login </a>  </p>
+        </div>
+
+       
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js" ></script>
+<script src="js/jquery.min.js" ></script>
+<script src="js/custom.js" ></script>
+<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+    AOS.init({
+      offset: 100,
+      easing: 'ease',
+      delay: 0,
+      once: true,
+      duration: 800,
+    
+    });
+    
+</script> 
+<script>
+document.querySelectorAll('.dropdown-item').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href');
+    const target = document.querySelector(targetId);
+
+    if (target) {
+
+      // agar hidden card hai to pehle show karo
+      if(target.classList.contains("extra-card")){
+        document.querySelector(".extra-card").style.display = "block";
+      }
+
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+
+    }
+  });
+});
+</script>
+
+</body>
+</html>
