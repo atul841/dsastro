@@ -825,85 +825,236 @@
   <div class="report-container">
 
     <!-- Card 1 -->
-    <div class="report-card green" id="course1">
-      <div class="card-banner">
-        <span class="discount">Mega DISCOUNT</span>
-        <h3>Beginner Astrology </span></h3>
-        <p class="price-big">₹699 Only</p>
-      </div>
-      <div class="card-content">
-        <h4>Beginner Astrology</h4>
-        <p>Discover your true purpose, karmic path & hidden strengths.</p>
-        <div class="bottom">
-          <span class="price">₹699 <del>₹4100</del></span>
-          <button>Buy Now</button>
-        </div>
-      </div>
-    </div>
+   <!-- Card 1 -->
+<div class="report-card green" id="course1">
+  <div class="card-banner">
+    <span class="discount">Mega DISCOUNT</span>
+    <h3>Beginner Astrology</h3>
+    <p class="price-big">₹699 Only</p>
+  </div>
 
-    <!-- Card 2 -->
-    <div class="report-card purple" id="course2">
-      <div class="card-banner">
-        <span class="discount">Mega DISCOUNT</span>
-        <h3>Advanced Astrology</h3>
-        <p class="price-big">₹999 Only</p>
-      </div>
-      <div class="card-content">
-        <h4>Advanced Astrology</h4>
-        <p>Navigate your career, health & finance with precise cosmic wisdom.</p>
-        <div class="bottom">
-          <span class="price">₹999 <del>₹5100</del></span>
-          <button>Buy Now</button>
-        </div>
-      </div>
-    </div>
+  <div class="card-content">
+    <h4>Beginner Astrology</h4>
+    <p>Discover your true purpose, karmic path & hidden strengths.</p>
 
-    <!-- Card 3 -->
-    <div class="report-card red" id="course3">
-      <div class="card-banner">
-        <span class="discount">Mega DISCOUNT</span>
-        <h3>Predictive Astrology</span></h3>
-        <p class="price-big">₹599 Only</p>
-      </div>
-      <div class="card-content">
-        <h4>Predictive Astrology</h4>
-        <p>Understand your emotional patterns, compatibility & marriage timing.</p>
-        <div class="bottom">
-          <span class="price">₹599 <del>₹3100</del></span>
-          <button>Buy Now</button>
-        </div>
+    <div class="bottom">
+      <span class="price">₹699 <del>₹4100</del></span>
+      <div class="btn-group">
+        <button class="read-btn" onclick="openPopup('course1')">Read</button>
+        <button class="buy-btn">Buy</button>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Hidden Card 4 -->
-    <div class="report-card green extra-card" id="course4">
-      <div class="card-banner">
-        <span class="discount">Mega DISCOUNT</span>
-        <h3>Certification Courses</span></h3>
-        <p class="price-big">₹799 Only</p>
-      </div>
-      <div class="card-content">
-        <h4>Certification Courses</h4>
-        <p>Find the best career path and growth opportunities.</p>
-        <div class="bottom">
-          <span class="price">₹799 <del>₹4200</del></span>
-          <button>Buy Now</button>
-        </div>
+<!-- Card 2 -->
+<div class="report-card purple" id="course2">
+  <div class="card-banner">
+    <span class="discount">Mega DISCOUNT</span>
+    <h3>Advanced Astrology</h3>
+    <p class="price-big">₹999 Only</p>
+  </div>
+
+  <div class="card-content">
+    <h4>Advanced Astrology</h4>
+    <p>Navigate your career, health & finance with precise cosmic wisdom.</p>
+
+    <div class="bottom">
+      <span class="price">₹999 <del>₹5100</del></span>
+      <div class="btn-group">
+        <button class="read-btn" onclick="openPopup('course2')">Read</button>
+        <button class="buy-btn">Buy</button>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Card 3 -->
+<div class="report-card red" id="course3">
+  <div class="card-banner">
+    <span class="discount">Mega DISCOUNT</span>
+    <h3>Tarot Reading Course (Basic to Professional Level)</h3>
+    <p class="price-big">₹599 Only</p>
+  </div>
+
+  <div class="card-content">
+    <h4>Tarot Reading Course (Basic to Professional Level)</h4>
+    <p>Understand your emotional patterns, compatibility & marriage timing.</p>
+
+    <div class="bottom">
+      <span class="price">₹599 <del>₹3100</del></span>
+      <div class="btn-group">
+        <button class="read-btn" onclick="openPopup('course3')">Read</button>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 4 -->
+<div class="report-card green extra-card" id="course4">
+  <div class="card-banner">
+    <span class="discount">Mega DISCOUNT</span>
+    <h3>Certification Courses</h3>
+    <p class="price-big">₹799 Only</p>
+  </div>
+
+  <div class="card-content">
+    <h4>Certification Courses</h4>
+    <p>Find the best career path and growth opportunities.</p>
+
+    <div class="bottom">
+      <span class="price">₹799 <del>₹4200</del></span>
+      <div class="btn-group">
+        <button class="read-btn" onclick="openPopup('course4')">Read</button>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     
 
   </div>
-
+  
+  <!-- POPUP -->
+<div id="popup" class="popup">
+  <div class="popup-box">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <h2 id="popup-title"></h2>
+    <div id="popup-desc"></div>
+  </div>
+</div> 
   <!-- Show More Button -->
   <button class="show-more-btn" onclick="showMoreCards()">Show More</button>
 </section>
  
  
+<script>
+const courseData = {
 
+  course1: {
+    title: "Basic Vedic Astrology Course",
+    desc: `
+    <b>Duration:</b> 12–15 Classes<br>
+    <b>Schedule:</b> 2 Days per Week<br><br>
+
+    This course is designed for beginners who want to learn the fundamentals of Vedic Astrology from the root level.
+    You will learn how to read a Kundali and understand planetary effects step-by-step.<br><br>
+
+    <b>Course Topics:</b>
+    <ul>
+      <li>All Rashis (Zodiac Signs)</li>
+      <li>All Planets and their effects</li>
+      <li>All 12 Houses in Kundali</li>
+      <li>Karak (Significators) and their importance</li>
+      <li>Nakshatra basics</li>
+      <li>Types of Kundali / Charts</li>
+    </ul>
+
+    <p>This course builds a strong foundation for further advanced learning.</p>
+    `
+  },
+
+  course2: {
+    title: "Advance Vedic Astrology Course",
+    desc: `
+    <b>Duration:</b> 25–30 Classes<br>
+    <b>Schedule:</b> 2 Days per Week<br><br>
+
+    This course is for students who want to learn prediction techniques and advanced astrology concepts used in professional consultations.<br><br>
+
+    <b>Course Topics:</b>
+    <ul>
+      <li>Different Yogas in Kundali</li>
+      <li>Panchang understanding</li>
+      <li>Sade Saati analysis</li>
+      <li>Shani Dhaiya</li>
+      <li>Mangal Dosh</li>
+      <li>Marriage Predictions</li>
+      <li>Career Predictions</li>
+      <li>Financial Predictions</li>
+      <li>Child Birth Predictions</li>
+      <li>Divisional Charts (D-9, D-10, D-81 etc.)</li>
+      <li>Time Rectification</li>
+      <li>Life Span Predictions</li>
+      <li>Multiple Marriage Yog</li>
+      <li>Foreign Settlement Yog</li>
+      <li>Match Making / Kundali Matching</li>
+      <li>Muhurat selection</li>
+      <li>Gemstone Remedies</li>
+      <li>Other Astrological Remedies</li>
+      <li>Child Birth Event Timing</li>
+      <li>Many more advanced and interesting topics</li>
+    </ul>
+
+    <p><b>After this course, students can confidently do professional astrology consultation.</b></p>
+    `
+  },
+
+  course3: {
+    title: "Tarot Reading Course (Basic to Professional Level)",
+    desc: `
+    <b>Duration:</b> 15–18 Classes<br>
+    <b>Schedule:</b> 2 Days per Week<br><br>
+
+    This course is designed for those who want to learn Tarot Reading from beginner level to professional consultation level.<br><br>
+
+    You will learn card meanings, intuition, spreads, timing, and consultation techniques.<br><br>
+
+    <b>Course Topics:</b>
+    <ul>
+      <li>Origination and history of Tarot</li>
+      <li>Types of Tarot cards</li>
+      <li>Major Arcana cards</li>
+      <li>Minor Arcana cards</li>
+      <li>Court cards</li>
+      <li>All Tarot spreads (3-card, Celtic, compatibility etc.)</li>
+      <li>Predictions in Career, Marriage, Relationship etc.</li>
+      <li>Symbols, colours, meanings</li>
+      <li>Timing through Tarot</li>
+      <li>Consultation techniques</li>
+      <li>Past – Present – Future predictions</li>
+    </ul>
+
+    <p>This course is suitable for personal learning as well as professional practice.</p>
+    `
+  },
+
+  course4: {
+    title: "Course Features",
+    desc: `
+    <ul>
+      <li>Live interactive classes</li>
+      <li>Step-by-step teaching method</li>
+      <li>Practical prediction training</li>
+      <li>Suitable for beginners & professionals</li>
+      <li>Guidance even after course completion</li>
+    </ul>
+    `
+  }
+
+};
+function openPopup(id) {
+  document.getElementById("popup-title").innerHTML = courseData[id].title;
+  document.getElementById("popup-desc").innerHTML = courseData[id].desc;
+  document.getElementById("popup").style.display = "flex";
+}
+
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+
+// outside click close
+window.onclick = function(e) {
+  if (e.target === document.getElementById("popup")) {
+    closePopup();
+  }
+}
+</script>
 <!-- CSS -->
-<style> 
+<style>  
+
 .report-card {
   scroll-margin-top: 120px; /* navbar height ke according */
 }
@@ -1036,6 +1187,72 @@ button:hover {
 .show-more-btn {
   margin-top: 30px;
   padding: 10px 25px;
+} 
+
+.btn-group {
+  display: flex;
+  gap: 6px;
+}
+
+.read-btn,
+.buy-btn {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.read-btn {
+  background: transparent;
+  border: 1px solid #4CAF50;
+  color: #4CAF50;
+}
+
+.buy-btn {
+  background: #4CAF50;
+  border: none;
+  color: #fff;
+}
+
+.read-btn:hover {
+  background: #4CAF50;
+  color: #fff;
+}
+
+.buy-btn:hover {
+  background: #388E3C;
+} 
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-box {
+  background: #fff;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 22px;
+  cursor: pointer;
 }
 </style>
 
