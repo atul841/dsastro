@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Astrology Multi Tool</title>
+
+<style>
+    body {
+  font-family: Arial;
+  background: linear-gradient(135deg,#1e3c72,#2a5298);
+  color:white;
+  margin:0;
+}
+
+/* 🔥 WRAPPER */
+.main-wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  gap:30px;
+  padding:50px 20px;
+  flex-wrap:wrap;
+}
+
+/* 🔥 CARD */
+.container{
+  background:rgba(255,255,255,0.1);
+  padding:25px;
+  border-radius:15px;
+  width:320px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+h2{
+  text-align:center;
+  margin-bottom:15px;
+}
+
+input,button{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:none;
+  border-radius:8px;
+}
+
+input{
+  background: rgba(255,255,255,0.1);
+  color:white;
+  outline:none;
+}
+
+input::placeholder{
+  color:#ccc;
+}
+
+button{
+  background: linear-gradient(90deg,#ff00cc,#3333ff);
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255,0,204,0.4);
+}
+
+.result{
+  margin-top:15px;
+  font-size:16px;
+  text-align:center;
+  color:#00ffe7;
+}
+</style>
+
+</head>
+<body>
+    
+
+<div class="main-wrapper">
+  
+  <!-- 🔮 ASTRO TOOL -->
+  <div class="container">
+    <h2>🔮 Astrology Tool</h2>
+
+    <input type="date" id="dob">
+    <input type="text" id="astroName1" placeholder="Your Name">
+    <input type="text" id="astroName2" placeholder="Partner Name">
+
+    <button onclick="calculateAll()">Calculate</button>
+
+    <div class="result" id="astroResult"></div>
+  </div>
+
+  <!-- 💍 MARRIAGE TOOL -->
+  <div class="container">
+    <h2>💍 Marriage Compatibility</h2>
+
+    <input type="text" id="name1" placeholder="Your Name">
+    <input type="text" id="name2" placeholder="Partner Name">
+
+    <button onclick="checkCompatibility()">Check Compatibility</button>
+
+    <div class="result" id="result"></div>
+  </div>
+
+</div>
+
+<script>
+
+// Life Path Number
+function lifePath(dob){
+  let sum = dob.replaceAll("-","").split("").reduce((a,b)=>a+Number(b),0);
+  while(sum > 9){
+    sum = sum.toString().split("").reduce((a,b)=>a+Number(b),0);
+  }
+  return sum;
+}
+
+// Nakshatra (simple approx)
+function nakshatra(day){
+  const list = [
+    "Ashwini","Bharani","Krittika","Rohini","Mrigashira",
+    "Ardra","Punarvasu","Pushya","Ashlesha","Magha",
+    "Purva Phalguni","Uttara Phalguni","Hasta","Chitra",
+    "Swati","Vishakha","Anuradha","Jyeshtha","Mula",
+    "Purva Ashadha","Uttara Ashadha","Shravana","Dhanishta",
+    "Shatabhisha","Purva Bhadrapada","Uttara Bhadrapada","Revati"
+  ];
+  return list[day % 27];
+}
+
+// 🔥 RASHI FUNCTION (NEW)
+function getRashi(day, month){
+  if ((month == 3 && day >= 21) || (month == 4 && day <= 19)) return "♈ Mesh (Aries)";
+  else if ((month == 4 && day >= 20) || (month == 5 && day <= 20)) return "♉ Vrishabh (Taurus)";
+  else if ((month == 5 && day >= 21) || (month == 6 && day <= 20)) return "♊ Mithun (Gemini)";
+  else if ((month == 6 && day >= 21) || (month == 7 && day <= 22)) return "♋ Kark (Cancer)";
+  else if ((month == 7 && day >= 23) || (month == 8 && day <= 22)) return "♌ Singh (Leo)";
+  else if ((month == 8 && day >= 23) || (month == 9 && day <= 22)) return "♍ Kanya (Virgo)";
+  else if ((month == 9 && day >= 23) || (month == 10 && day <= 22)) return "♎ Tula (Libra)";
+  else if ((month == 10 && day >= 23) || (month == 11 && day <= 21)) return "♏ Vrishchik (Scorpio)";
+  else if ((month == 11 && day >= 22) || (month == 12 && day <= 21)) return "♐ Dhanu (Sagittarius)";
+  else if ((month == 12 && day >= 22) || (month == 1 && day <= 19)) return "♑ Makar (Capricorn)";
+  else if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) return "♒ Kumbh (Aquarius)";
+  else return "♓ Meen (Pisces)";
+}
+
+// Love %
+function loveCalc(n1,n2){
+  let total = (n1.length + n2.length) * 7;
+  return total % 101;
+}
+
+// Lucky Color
+function luckyColor(num){
+  const colors = ["Red","Blue","Green","Yellow","Purple","Orange","Pink","White","Gold"];
+  return colors[num % colors.length];
+}
+
+// Lucky Number
+function luckyNumber(num){
+  return (num * 7) % 9 + 1;
+}
+
+// MAIN
+function calculateAll(){
+  const dob = document.getElementById("dob").value;
+  const name1 = document.getElementById("name1").value;
+  const name2 = document.getElementById("name2").value;
+
+  if(!dob){
+    document.getElementById("result").innerHTML="❌ DOB required";
+    return;
+  }
+
+  const date = new Date(dob);
+  const day = date.getDate();
+  const month = date.getMonth() + 1;
+
+  const life = lifePath(dob);
+  const nak = nakshatra(day);
+  const rashi = getRashi(day, month);
+  const love = loveCalc(name1,name2);
+  const color = luckyColor(life);
+  const luckNum = luckyNumber(life);
+
+  document.getElementById("result").innerHTML = `
+    🔢 Life Path Number: <b>${life}</b><br>
+    🌙 Nakshatra: <b>${nak}</b><br>
+    ♈ Rashi: <b>${rashi}</b><br>
+    ❤️ Love Compatibility: <b>${love}%</b><br>
+    🎨 Lucky Color: <b>${color}</b><br>
+    🍀 Lucky Number: <b>${luckNum}</b>
+  `;
+} 
+
+
+
+
+</script> 
+
+<script>
+function checkCompatibility(){
+
+  const name1 = document.getElementById("name1").value.trim();
+  const name2 = document.getElementById("name2").value.trim();
+  const result = document.getElementById("result");
+
+  if(!name1 || !name2){
+    result.innerHTML = "❌ Please enter both names";
+    return;
+  }
+
+  // 🔥 name based calculation (same input = same result)
+  let total = 0;
+
+  for(let i=0;i<name1.length;i++){
+    total += name1.charCodeAt(i);
+  }
+
+  for(let i=0;i<name2.length;i++){
+    total += name2.charCodeAt(i);
+  }
+ 
+
+  // 🔥 compatibility message
+  let message = "";
+
+  if(percent > 80){
+    message = "🔥 Perfect Match 💖";
+  } else if(percent > 60){
+    message = "😍 Strong Love";
+  } else if(percent > 40){
+    message = "🙂 Average Match";
+  } else {
+    message = "😅 Needs Effort";
+  }
+
+  result.innerHTML = `
+    ❤️ ${name1} + ${name2} <br>
+    💘 Compatibility: <b>${percent}%</b><br>
+    ${message}
+  `;
+}
+</script>
+
+</body>
+</html>

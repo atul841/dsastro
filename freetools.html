@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Astrology- Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;600;700&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@100&display=swap" rel="stylesheet"/>
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
+    
+  </head> 
+
+<body>
+ 
+  <section class="report-bar">
+  <div class="label" style="color: #000;">Popular Reports</div>
+
+  <div class="scroll-wrapper">
+    <div class="scroll-content">
+      <span class="item"><b class="new">New</b> 2026 Financial Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Career Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Marriage Horoscope Based on Your Birth Chart</span>
+
+      <!-- duplicate for smooth loop -->
+      <span class="item"><b class="new">New</b> 2026 Financial Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Career Horoscope Based on Your Birth Chart</span>
+      <span class="item"><b class="new">New</b> 2026 Marriage Horoscope Based on Your Birth Chart</span>
+    </div>
+  </div>
+</section> 
+<style>
+  .report-bar {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(9,12,52), rgb(25,11,26));
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.label {
+  background: rgb(249, 232, 1);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.scroll-wrapper {
+  overflow: hidden;
+  flex: 1;
+}
+
+.scroll-content {
+  display: inline-flex;
+  gap: 40px;
+  white-space: nowrap;
+  animation: scrollLeft 20s linear infinite;
+}
+
+.item {
+  color: #fff;
+  font-size: 14px;
+}
+
+.new {
+  background: #ffd43b;
+  color: #000;
+  padding: 3px 8px;
+  margin-right: 6px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+</style>
+  <header class="float-start w-100">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img alt="logo" src="images/logo.png"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu">
+          <span> <i class="fas fa-bars"></i> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+  
+  <div class="d-flex align-items-center">
+
+    <!-- TEXT CLICK = PAGE OPEN -->
+    <a class="nav-link" href="consultations.html">
+      CONSULTATIONS
+    </a>
+
+    <!-- ARROW CLICK = DROPDOWN -->
+    <a class="nav-link dropdown-toggle dropdown-toggle-split"
+       href="#"
+       data-bs-toggle="dropdown">
+    </a>
+
+  </div>
+
+  <ul class="dropdown-menu dropdown-menu1">
+    <li><a class="dropdown-item" href="consultations.html">Personal Horoscope</a></li>
+    <li><a class="dropdown-item" href="consultations.html">Marriage/Relationship</a></li>
+    <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
+    <li><a class="dropdown-item" href="#">Muhurat</a></li>
+    <li><a class="dropdown-item" href="#">Health Astrology</a></li>
+  </ul>
+
+</li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">ABOUT </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">BLOG </a>
+            </li>
+            <li class="nav-item dropdown" >
+              <a class="nav-link dropdown-toggle" href="#coursestart" role="button" data-bs-toggle="dropdown">
+                COURSES
+              </a>
+              <ul class="dropdown-menu dropdown-menu1">
+                <li><a class="dropdown-item" href="#coursestart">Beginner Astrology</a></li>
+                <li><a class="dropdown-item" href="#coursestart">Advanced Astrology</a></li>
+                <li><a class="dropdown-item" href="#coursestart">Predictive Astrology</a></li>
+                <li><a class="dropdown-item" href="#coursestart">Certification Courses</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle"
+     href="https://test-1111111111111111111111111111111111711111111111133095.myshopify.com/"
+     role="button"
+     data-bs-toggle="dropdown"
+     id="astroDropdown">
+    ASTRO SHOP / STORE
+  </a>
+
+  <ul class="dropdown-menu dropdown-menu1">
+    <li><a class="dropdown-item" href="https://test-1111111111111111111111111111111111711111111111133095.myshopify.com/">Gemstones</a></li>
+    <li><a class="dropdown-item" href="https://test-1111111111111111111111111111111111711111111111133095.myshopify.com/">Rudraksha</a></li>
+    <li><a class="dropdown-item" href="https://test-1111111111111111111111111111111111711111111111133095.myshopify.com/">Yantras</a></li>
+    <li><a class="dropdown-item" href="https://test-1111111111111111111111111111111111711111111111133095.myshopify.com/">Puja Kits</a></li>
+    <li><a class="dropdown-item" href="https://test-1111111111111111111111111111111111711111111111133095.myshopify.com/">Bracelets</a></li>
+  </ul>
+</li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">FREE TOOLS </a>
+            </li>
+           
+          </ul>
+          
+        </div>
+        <div class="d-none d-lg-block">
+            <div class="right-menui">
+              <ul>
+                  
+                  
+                  <li>
+                    <a data-bs-toggle="modal" href="#registerModal" class="btn consult-btn"> BOOK CONSULTATION </a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </nav>
+   </header> 
+   
+   
+
+<!-- COURSE SECTION START -->
+<!-- COURSE SECTION START -->
+<section class="astro-tools-section">
+
+  <h2 class="astro-title">Vedic Astrology Free Tools</h2>
+
+  <div class="tools-grid">
+
+    <!-- RASHI FINDER -->
+    <div class="tool-card">
+      <h3>Rashi Finder</h3>
+      <input type="date" id="dob-rashi">
+      <button id="btn-rashi">Find Rashi</button>
+      <p id="rashi-output"></p>
+    </div>
+
+    <!-- NAKSHATRA -->
+    <div class="tool-card">
+      <h3>Nakshatra Finder</h3>
+      <input type="date" id="dob-nak">
+      <button onclick="findNakshatra()">Find</button>
+      <p id="nak-output"></p>
+    </div>
+
+    <!-- NUMEROLOGY -->
+    <div class="tool-card">
+      <h3>Life Path Number</h3>
+      <input type="date" id="dob-num">
+      <button onclick="lifePath()">Calculate</button>
+      <p id="num-output"></p>
+    </div>
+
+    <!-- LOVE MATCH -->
+    <div class="tool-card">
+      <h3>Love Compatibility</h3>
+      <input type="text" id="nameA" placeholder="Your Name">
+      <input type="text" id="nameB" placeholder="Partner Name">
+      <button onclick="loveMatch()">Check</button>
+      <p id="love-output"></p>
+    </div>
+
+    <!-- LUCKY COLOR -->
+    <div class="tool-card">
+      <h3>Lucky Color</h3>
+      <input type="date" id="dob-color">
+      <button onclick="luckyColor()">Find</button>
+      <p id="color-output"></p>
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+    .astro-tools-section {
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #1a001f, #000);
+  text-align: center;
+  overflow: hidden;
+}
+
+/* 🔥 TITLE */
+.astro-title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 15px;
+
+  background: linear-gradient(90deg, #ff00cc, #3333ff, #00ffe7);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 4s linear infinite;
+}
+
+/* SUBTITLE */
+.astro-subtitle {
+  color: #ccc;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* 🔥 CARD */
+.tool-card {
+  padding: 20px;
+  border-radius: 18px;
+
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+
+  color: #fff;
+  text-align: left;
+
+  position: relative;
+  overflow: hidden;
+
+  transition: 0.4s;
+}
+
+/* GLOW BORDER */
+.tool-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  padding: 1px;
+  background: linear-gradient(120deg, #ff00cc, #00ffe7, #3333ff);
+  -webkit-mask: 
+    linear-gradient(#000 0 0) content-box, 
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* TITLE */
+.tool-card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* TEXT */
+.tool-card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* 🔥 HOVER EFFECT */
+.tool-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 50px rgba(0,255,231,0.2);
+}
+
+/* 🔥 FLOAT ANIMATION */
+.tool-card:nth-child(odd) {
+  animation: float 4s ease-in-out infinite;
+}
+
+.tool-card:nth-child(even) {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* TITLE ANIMATION */
+@keyframes gradientMove {
+  0% { background-position: 0% }
+  100% { background-position: 200% }
+} 
+
+/* 🔥 INPUT FIELD */
+.tool-card input,
+.tool-card select {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.15);
+
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(8px);
+
+  color: #fff;
+  font-size: 14px;
+
+  outline: none;
+  transition: 0.3s;
+}
+
+/* PLACEHOLDER */
+.tool-card input::placeholder {
+  color: #bbb;
+}
+
+/* FOCUS EFFECT 🔥 */
+.tool-card input:focus,
+.tool-card select:focus {
+  border: 1px solid #00ffe7;
+  box-shadow: 0 0 10px rgba(0,255,231,0.5);
+  background: rgba(255,255,255,0.12);
+}
+
+/* 🔥 BUTTON */
+.tool-card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  color: #fff;
+
+  font-weight: 600;
+  font-size: 14px;
+
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+/* BUTTON HOVER */
+.tool-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255,0,204,0.4);
+  background: linear-gradient(90deg, #ff00cc, #00ffe7);
+}
+
+/* RESULT TEXT */
+.tool-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #00ffe7;
+  min-height: 20px;
+}
+</style> 
+
+
+<script>
+
+// 🔮 RASHI
+function findRashi() {
+  let val = document.getElementById("dob-rashi").value;
+  if(!val){
+    alert("Please select date");
+    return;
+  }
+
+  let dob = new Date(val);
+  let day = dob.getDate();
+  let month = dob.getMonth() + 1;
+
+  let rashi = "";
+
+  if ((month==3 && day>=21) || (month==4 && day<=19)) rashi="Aries (Mesh)";
+  else if ((month==4 && day>=20) || (month==5 && day<=20)) rashi="Taurus";
+  else if ((month==5 && day>=21) || (month==6 && day<=20)) rashi="Gemini";
+  else if ((month==6 && day>=21) || (month==7 && day<=22)) rashi="Cancer";
+  else if ((month==7 && day>=23) || (month==8 && day<=22)) rashi="Leo";
+  else if ((month==8 && day>=23) || (month==9 && day<=22)) rashi="Virgo";
+  else if ((month==9 && day>=23) || (month==10 && day<=22)) rashi="Libra";
+  else if ((month==10 && day>=23) || (month==11 && day<=21)) rashi="Scorpio";
+  else if ((month==11 && day>=22) || (month==12 && day<=21)) rashi="Sagittarius";
+  else if ((month==12 && day>=22) || (month==1 && day<=19)) rashi="Capricorn";
+  else if ((month==1 && day>=20) || (month==2 && day<=18)) rashi="Aquarius";
+  else rashi="Pisces";
+
+  document.getElementById("rashi-output").innerText = "Your Rashi: " + rashi;
+}
+
+
+// 🌙 NAKSHATRA
+function findNakshatra(){
+  let val = document.getElementById("dob-nak").value;
+  if(!val){
+    alert("Select date");
+    return;
+  }
+
+  let dob = new Date(val);
+  let day = dob.getDate();
+
+  let nak = ["Ashwini","Bharani","Krittika","Rohini","Mrigashira","Ardra","Punarvasu","Pushya"];
+
+  document.getElementById("nak-output").innerText =
+    "Nakshatra: " + nak[day % nak.length];
+}
+
+
+// 🔢 NUMEROLOGY
+function lifePath(){
+  let val = document.getElementById("dob-num").value;
+
+  if(!val){
+    alert("Select date");
+    return;
+  }
+
+  let dob = val.replaceAll("-","");
+  let sum = dob.split("").reduce((a,b)=>a+Number(b),0);
+
+  while(sum > 9){
+    sum = sum.toString().split("").reduce((a,b)=>a+Number(b),0);
+  }
+
+  document.getElementById("num-output").innerText =
+    "Life Path Number: " + sum;
+}
+
+
+// ❤️ LOVE
+function loveMatch(){
+  let a = document.getElementById("nameA").value;
+  let b = document.getElementById("nameB").value;
+
+  if(!a || !b){
+    alert("Enter both names");
+    return;
+  }
+
+  let score = (a.length * b.length) % 100;
+
+  document.getElementById("love-output").innerText =
+    score + "% Compatibility ❤️";
+}
+
+
+// 🎨 COLOR
+function luckyColor(){
+  let colors = ["Red","Blue","Green","Yellow","Purple"];
+
+  let rand = Math.floor(Math.random()*colors.length);
+
+  document.getElementById("color-output").innerText =
+    "Lucky Color: " + colors[rand];
+}
+
+</script>
+
+
+
+
+
+
+
+ <!-- this  is footer  -->
+ <footer class="float-start w-100 pt-5">
+    <div class="container">
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 align-content-center">
+          <div class="col">
+             <a href="index.html">
+               <img alt="logo" src="images/logo.png"/>
+             </a>
+             <p class="text-white mt-3 col-lg-10"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+          </div>
+          <div class="col">
+             <div class="colm-footer">
+                <h5> Contact Us </h5>
+                <ul>
+                  <li> <i class="fab fa-whatsapp"></i> +91 8418-9039-66</li>
+                  <li> <i class="fas fa-paper-plane"></i> dsastro@gmail.com</li>
+                  <li> <i class="fas fa-phone-alt"></i> +91 8418-9039-66</li>
+                </ul>
+             </div>
+          </div>
+          <div class="col">
+            <div class="colm-footer">
+               <h5> Consultations </h5>
+               <ul>
+                 <li> <a href="#">Personal Horoscope </a></li>
+                 <li> <a href="#"> Marriage / Relationship </a></li>
+                 <li> <a href="#"> Career & Bussiness </a></li>
+                 <li> <a href="#"> Muhurat </a></li>
+                 <li> <a href="#">Health  Astrology </a></li>
+                 <li> <a href="#">Student Login </a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="col">
+          <div class="colm-footer">
+             <h5> Quick Links </h5>
+             <ul>
+               <li> <a href="aboutus.html"> About </a></li>
+               <li> <a href="blog.html">Blog </a></li>
+               <li> <a href="contact.html"> Contact </a></li>
+               <li> <a href="#"> Astro Shop / Store </a></li>
+               <li> <a href="#">Free Tools  </a></li>
+               <li> <a href="#"> FAQ part of footer</a></li>
+               <li> <a href="privacypolicy.html"> Privacy Policy</a></li>
+               <li> <a href="termsandcondision.html"> Payment Terms & Conditions</a></li>
+               <li> <a href="cancellation.html"> Refund & Cancellation Policy</a></li>
+             </ul>
+          </div>
+        </div>
+       </div>
+       <hr class="my-4"/>
+       <div class="d-flex align-items-center justify-content-between">
+          <p> Copyright © 2026. All rights reserved.</p>
+          <ul>
+            <li>
+              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+              <a href="#" class="mx-2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg> </a>
+              <a href="#"> <i class="fab fa-instagram"></i> </a>
+            </li>
+          </ul>
+       </div>
+    </div>
+ </footer>
+
+
+<!-- mobile menu -->
+
+<div class="offcanvas offcanvas-end mobile-menu-div"  id="mobile-menu">
+  <div class="offcanvas-header">
+    
+     <button type="button" class="close-menu" data-bs-dismiss="offcanvas">
+      <span> Close </span> <i class="fas fa-long-arrow-alt-right"></i>
+     </button>
+  </div>
+  
+      
+    <div class="offcanvas-body">
+      
+      <div class="head-contact">
+         <a href="index.html" class="logo-side">
+         <img src="images/logo-drk.png" alt="logo">
+         </a>
+         
+         <div class="mobile-menu-sec mt-5">
+          <nav class="navbar navbar-expand navbar-light">
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                      CONSULTATIONS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Personal Horoscope</a></li>
+                    <li><a class="dropdown-item" href="#">Marriage/Relationship</a></li>
+                    <li><a class="dropdown-item" href="#">Career & Bussiness</a></li>
+                    <li><a class="dropdown-item" href="#">Muhurat</a></li>
+                    <li><a class="dropdown-item" href="#">Health Astrology</a></li>
+                  </ul>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BLOG </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    COURSES
+                  </a>
+                  <ul class="dropdown-menu">1
+                    <li><a class="dropdown-item" href="#course1">Beginner Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course2">Advanced Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course3">Predictive Astrology</a></li>
+                    <li><a class="dropdown-item" href="#course4">Certification Courses</a></li>
+                  </ul>
+                </li>
+                 
+                 <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    ASTRO SHOP / STORE
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Gemstones</a></li>
+                    <li><a class="dropdown-item" href="#">Rudraksha</a></li>
+                    <li><a class="dropdown-item" href="#">Yantras</a></li>
+                    <li><a class="dropdown-item" href="#">Puja Kits</a></li>
+                    <li><a class="dropdown-item" href="#">Bracelets</a></li>
+                  </ul>
+                </li>
+                   
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FREE TOOLS </a>
+                </li> 
+                
+              </ul>
+              
+            </div>
+          </nav>
+         </div>
+         
+         <ul class="side-media list-unstyled">
+            <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+            <li> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg></a> </li>
+            <li> <a href="#"> <i class="fab fa-google-plus-g"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+         </ul>
+      </div>
+    </div>
+    
+ 
+</div>
+
+
+
+
+<!-- login Modal -->
+<div class="modal fade login-div-modal contact-form01" id="loginModal01">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="btn-close colis-btn" data-bs-dismiss="modal">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </span>
+      </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="modla-contact">
+          <h2> Login to your Account</h2>
+          <div class="form-div-sections mt-5 d-inline-block w-100 px-5">
+             <form name="fmn" action="mj" method="post">
+                 <div class="row" data-aos="fade-down">
+                     <div class="col-lg-6">
+                        <div class="form-group">
+                          <label> Full Name </label>
+                          <input type="text" class="form-control" placeholder="Enter your name" required />
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                      <div class="form-group">
+                        <label> Your Email </label>
+                        <input type="email" class="form-control" placeholder="Enter your email" required />
+                      </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="form-group">
+                          <label> Date of Birth </label>
+                          <input id="datepicker" placeholder="DD/MM/YYYY" class="form-control"/>
+                          
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                      <div class="form-group">
+                        <label> Time Of Birth </label>
+                        <input type="text" class="form-control" placeholder="12:00" required />
+                        
+                      </div>
+                     </div>
+                     <div class="col-lg-12">
+                      <div class="form-group">
+                        <label> Place of Birth </label>
+                        <input type="text" class="form-control" placeholder="Enter your City" required />
+                        
+                      </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <input type="submit" class="btn btn-submit" value="Signup"/>
+                     </div>
+                  </div>
+              </form>
+          </div>
+
+          <p class="text-center  mt-3 mb-5"> Do not have an account? 
+            <a data-bs-toggle="modal" class="regster-bn" data-bs-target="#registerModal" data-bs-dismiss="modal"> Register </a>  </p>
+        </div>
+
+        
+         
+      
+
+      
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- register Modal -->
+
+<div class="modal fade login-div-modal contact-form01" id="registerModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="btn-close colis-btn" data-bs-dismiss="modal">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </span>
+      </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="modla-contact">
+          <h2> Sign Up for & consult your favourite Astrologer</h2>
+          <div class="form-div-sections mt-5 d-inline-block w-100 px-5">
+             <form name="fmn" action="mj" method="post">
+                 <div class="row" data-aos="fade-down">
+                     <div class="col-lg-6">
+                        <div class="form-group">
+                          <label> Full Name </label>
+                          <input type="text" class="form-control" placeholder="Enter your name" required />
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                      <div class="form-group">
+                        <label> Your Email </label>
+                        <input type="email" class="form-control" placeholder="Enter your email" required />
+                      </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="form-group">
+                          <label> Date of Birth </label>
+                          <input id="datepicker" placeholder="DD/MM/YYYY" class="form-control"/>
+                          
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                      <div class="form-group">
+                        <label> Time Of Birth </label>
+                        <input type="text" class="form-control" placeholder="12:00" required />
+                        
+                      </div>
+                     </div>
+                     <div class="col-lg-12">
+                      <div class="form-group">
+                        <label> Place of Birth </label>
+                        <input type="text" class="form-control" placeholder="Enter your City" required />
+                        
+                      </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <input type="submit" class="btn btn-submit" value="Signup"/>
+                     </div>
+                  </div>
+              </form>
+          </div>
+
+          
+          <p class="text-center  mt-3 mb-5"> Do not have an account? 
+            <a data-bs-toggle="modal" class="regster-bn" data-bs-target="#loginModal" data-bs-dismiss="modal"> Login </a>  </p>
+        </div>
+
+       
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js" ></script>
+<script src="js/jquery.min.js" ></script>
+<script src="js/custom.js" ></script>
+<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+    AOS.init({
+      offset: 100,
+      easing: 'ease',
+      delay: 0,
+      once: true,
+      duration: 800,
+    
+    });
+    
+</script> 
+<script>
+document.querySelectorAll('.dropdown-item').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href');
+    const target = document.querySelector(targetId);
+
+    if (target) {
+
+      // agar hidden card hai to pehle show karo
+      if(target.classList.contains("extra-card")){
+        document.querySelector(".extra-card").style.display = "block";
+      }
+
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+
+    }
+  });
+});
+</script>
+
+<script>
+document.getElementById("astroDropdown").addEventListener("click", function(e) {
+  window.location.href = this.href;
+});
+</script>
+</body>
+</html>
